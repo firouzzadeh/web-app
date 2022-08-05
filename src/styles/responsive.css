@@ -1,71 +1,80 @@
 @media only screen and (max-width: 600px) {
-    body {
-      max-width: 600px;
-    }
-    h1{
-      font-size:20px !important;
-    }
-    .logo{
-      font-size:30px !important;
-    }
-    .text-top{
-      font-size:25px !important;
-      background-size: 200px !important;
-  
-    }
-    .nav-content {
-      overflow: hidden;
-      display: none;
-    }
-    .top-header {
-      display: flex;
-      justify-content: space-around;
-    }
-  
-  
-  
-    .box {
-      flex-basis: 100% !important;
-    }
-    .box .title-box a:hover {
-      color: var(--primery-color) !important;
-    }
-   
-  
-  
-    .input-main input {
-      height: 32px !important;
-      min-width: 200px !important;
-    }
-    .button-input button {
-      padding: 2px !important;
-      font-size: 14px !important;
-      width: 90px !important;
-      height: 33px !important;
-    }
-    .button-input button i{
-      font-size: 14px !important;
-      }
-  
-    .section-bottom {
-      max-width: 100% !important;
-    }
-    .text-gmail {
-      text-align: center !important;
-      font-size: 25px !important;
-      padding-top: 70px;
-    }
-    .search-Box{
-      display:none !important;
-    }
-    .author-main div{
-      display: flex;
-      justify-content:center;
-      align-items: center;
-      flex-basis: 100% !important;
-     }
-     .main-menue-left{
-      display: inline !important;
-     }
+  html{
+
+    overflow: hidden !important;
   }
-   
+  body {
+    max-width: 600px;
+  }
+  h1{
+    font-size:20px !important;
+  }
+  .logo{
+    font-size:25px !important;
+      }
+  .text-top{
+    font-size:25px !important;
+    background-size: 200px !important;
+
+  }
+  .nav-content {
+    overflow: hidden;
+    display: none;
+  }
+  .top-header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+  .box {
+    flex-basis: 100% !important;
+  }
+  .box .title-box a:hover {
+    color: var(--primery-color) !important;
+  }
+ 
+
+
+  .input-main input {
+    height: 32px !important;
+    min-width: 200px !important;
+  }
+  .button-input button {
+    padding: 2px !important;
+    font-size: 14px !important;
+    width: 90px !important;
+    height: 33px !important;
+  }
+  .button-input button i{
+    font-size: 14px !important;
+    }
+
+  .section-bottom {
+    max-width: 100% !important;
+  }
+  .text-gmail {
+    text-align: center !important;
+    font-size: 25px !important;
+    padding-top: 70px;
+  }
+  .search-Box{
+    display:none !important;
+  }
+  .author-main div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-basis: 100% !important;
+   }
+   .main-menue-left{
+    display: inline !important;
+   }
+   .nav-content .submenue{
+    left: -37px !important;
+
+   }
+ 
+}
+ 
